@@ -1,9 +1,10 @@
 import type { NextPage } from "next";
+import Translation from "../components/Translation";
 
 const Home: NextPage = () => {
   return (
     <>
-      <h1> hello</h1>
+      <Translation />
     </>
   );
 };
